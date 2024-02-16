@@ -309,6 +309,7 @@ html {
 .contatos-secao div{
     cursor: pointer;
     transition: all 200ms ease-in;
+    
 }
 
 .contatos-secao div:hover{
@@ -462,6 +463,8 @@ footer{
 
     .contatos-secao div{
         margin: 1rem;
+        margin-right: 0;
+        padding: 0;
     }
 }
 
@@ -494,6 +497,10 @@ footer{
     .sobre-nos p{
         text-align: center;
         width: 400px;
+    }
+
+    .contatos .contatos-secao{
+        width: auto;
     }
 }
 
